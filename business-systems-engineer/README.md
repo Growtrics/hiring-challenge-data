@@ -11,7 +11,7 @@ This is what our HR Manager exported for you. The export was taken on 20 Septemb
 | `questions.md` | The six interview questions every candidate answers, each with the 1-to-4 guide HR scores against |
 | `answers/` | Recent candidate answers, submitted 14 to 20 September. Each `.json` file holds one answer. Most carry a transcript. Five are audio only, with the recording in the matching `.m4a` file |
 | `scoring_sheet.csv` | Scores from August and September. Each answer was scored by two people in HR. The pass mark is in `questions.md` |
-| `hr_reference_scores.csv` | Ten answers from `answers/`. HR's score for each of the ten is added before this pack is sent out. If the `score` column is empty, those scores have not been added yet |
+| `hr_reference_scores.csv` | HR's own scores for ten of the answers in `answers/`, using the grading guides in `questions.md` |
 | `pipeline_log.csv` | Eight weeks of applications: who applied, when they were invited, when they submitted answers, and where they stand |
 | `hr_time_log.csv` | How HR's working hours were spent each week, by task, over the same eight weeks |
 | `inbox_export.csv` | Two weeks of the HR inbox, with the sender, subject and the start of each message |
