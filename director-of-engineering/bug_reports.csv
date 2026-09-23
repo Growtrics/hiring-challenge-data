@@ -1,0 +1,61 @@
+report_id,run_id,app_id,category,summary,customer_verdict,customer_comment
+BR-001,run-0331,app-retail-01,accessibility,Contrast of the grey hint text is too low to read in sunlight.,accepted,
+BR-002,run-0272,app-retail-02,functional,Filter by price keeps the old results after the filter is cleared.,accepted,
+BR-003,run-0054,app-edu-01,network-flaky,Profile picture upload failed once and succeeded on the next attempt.,rejected,Test environment network.
+BR-004,run-0225,app-food-01,functional,Reward points are not added after a completed purchase.,accepted,
+BR-005,run-0157,app-travel-01,crash,App closes when a push notification is opened while the app is on the login screen.,accepted,
+BR-006,run-0068,app-retail-02,crash,App closes when Pay is tapped with an empty cart. Reproduced 3 of 3 runs on two devices. Stack trace and video attached.,rejected,Could not reproduce on our side.
+BR-007,run-0218,app-food-01,performance,Product search freezes the screen for 3 seconds while typing.,accepted,
+BR-008,run-0239,app-ride-01,network-flaky,App shows 'Something went wrong' forever after the phone switches from wifi to mobile data.,accepted,
+BR-009,run-0074,app-bank-01,crash,Force close when the language is switched while a video is playing.,accepted,
+BR-010,run-0160,app-health-01,network-flaky,Login took 9 seconds on one run.,rejected,Device farm network was slow that day.
+BR-011,run-0325,app-ride-01,functional,Saved address is lost after editing the phone number field.,accepted,
+BR-012,run-0340,app-bank-01,functional,Transfer screen sends the money twice when Confirm is double-tapped. Two debits visible in the account history. Reproduced 2 of 2 runs.,rejected,Users would not double-tap.
+BR-013,run-0048,app-retail-01,localization,Prices show a dollar sign for customers in Vietnam.,accepted,
+BR-014,run-0365,app-food-01,localization,Delivery date uses month-first order for Singapore users.,accepted,
+BR-015,run-0024,app-edu-01,network-flaky,Search suggestions did not appear on one of three runs.,rejected,Could not reproduce.
+BR-016,run-0066,app-health-01,network-flaky,Chat messages sent while offline are lost without a warning.,accepted,
+BR-017,run-0328,app-travel-01,visual-layout,Shadow under the card is softer than in the reference screenshot.,rejected,Not a defect.
+BR-018,run-0294,app-retail-01,functional,Quantity stepper allows a negative quantity of -1.,accepted,
+BR-019,run-0088,app-ride-01,performance,Memory use rose by 30 MB after opening the gallery.,rejected,Normal image caching.
+BR-020,run-0317,app-health-01,visual-layout,Error message overlaps the password field so the field cannot be tapped.,accepted,
+BR-021,run-0114,app-edu-01,crash,App closes after choosing a photo larger than 20 MB as a profile picture.,accepted,
+BR-022,run-0068,app-retail-02,visual-layout,Font weight on the price label looks lighter than on the last run.,rejected,Not a defect.
+BR-023,run-0100,app-travel-01,visual-layout,Dark mode shows black text on a black background in the settings menu.,accepted,
+BR-024,run-0291,app-food-01,visual-layout,Home screen carousel shows a different product than in the reference screenshot.,rejected,The carousel rotates by design.
+BR-025,run-0383,app-retail-01,accessibility,Close icon on the promotion pop-up is too small to tap reliably.,accepted,
+BR-026,run-0229,app-retail-02,network-flaky,Product list request timed out once. The same request succeeded on retry.,rejected,Test environment network.
+BR-027,run-0003,app-retail-02,functional,Order history lists cancelled orders as delivered.,accepted,
+BR-028,run-0234,app-retail-01,functional,"Search returns no results for product names containing an accent, such as Pho.",accepted,
+BR-029,run-0011,app-food-01,accessibility,Screen reader reads the Pay button as 'button' with no label.,accepted,
+BR-030,run-0051,app-food-01,visual-layout,"Checkout button is covered by the keyboard on small screens, so the user cannot continue.",accepted,
+BR-031,run-0349,app-bank-01,performance,Home screen took 1.2 seconds to render on one run.,rejected,Within our target.
+BR-032,run-0283,app-travel-01,functional,Booking shows as confirmed although the payment was declined.,accepted,
+BR-033,run-0249,app-retail-01,accessibility,Focus order jumps from the email field to the footer.,accepted,
+BR-034,run-0152,app-ride-01,visual-layout,Map pin labels overlap and cannot be read at the default zoom.,accepted,
+BR-035,run-0200,app-edu-01,visual-layout,Animation frame captured halfway through the menu opening.,rejected,Screenshot taken mid-animation.
+BR-036,run-0280,app-retail-02,performance,Scrolling the order history drops to a stutter after 200 orders.,accepted,
+BR-037,run-0383,app-retail-01,localization,Thai translation missing on the order confirmation screen.,accepted,
+BR-038,run-0078,app-ride-01,network-flaky,Map tiles loaded slowly on the first run.,rejected,Test environment network.
+BR-039,run-0308,app-bank-01,visual-layout,Loading spinner visible in the screenshot of the profile page.,rejected,Screenshot taken mid-load.
+BR-040,run-0268,app-health-01,performance,App takes 14 seconds to open on a mid-range Android phone.,accepted,
+BR-041,run-0015,app-food-01,functional,Cart total does not include the delivery fee shown on the next screen. Totals differ by the delivery fee on every order tested.,rejected,Works as intended in our build.
+BR-042,run-0093,app-ride-01,performance,Battery use doubles while the app sits on the tracking screen.,accepted,
+BR-043,run-0068,app-retail-02,visual-layout,"Pay button is brand blue, but the reference screenshot shows it grey. The reference was taken before the form was filled in.",accepted,
+BR-044,run-0112,app-travel-01,accessibility,Text does not grow when the system font size is set to large.,accepted,
+BR-045,run-0294,app-retail-01,visual-layout,Vietnamese product names are cut off after 12 characters on the product card.,accepted,
+BR-046,run-0400,app-bank-01,crash,Crash on launch when the device clock is set to a 12-hour format in Thai.,accepted,
+BR-047,run-0195,app-food-01,visual-layout,Promotion text differs from the reference screenshot.,rejected,Promotions change daily.
+BR-048,run-0386,app-retail-02,crash,App closes when the user rotates the phone on the order summary screen. Reproduced 3 of 3 runs.,accepted,
+BR-049,run-0243,app-health-01,functional,Logout asks the user to confirm before signing out.,accepted,
+BR-050,run-0005,app-retail-02,functional,Discount code is applied twice when the checkout page is refreshed.,accepted,
+BR-051,run-0309,app-edu-01,network-flaky,Image failed to load on one run of the gallery screen.,rejected,Could not reproduce.
+BR-052,run-0138,app-food-01,crash,App closes on tapping Back twice quickly from the payment page.,accepted,
+BR-053,run-0014,app-bank-01,crash,Crash when an empty search is submitted from the voice search button.,accepted,
+BR-054,run-0168,app-health-01,visual-layout,Avatar shows initials instead of a photo for a test account with no photo.,rejected,Correct for accounts with no photo.
+BR-055,run-0277,app-travel-01,functional,Tapping the logo on the home screen does nothing.,rejected,The logo is not a button.
+BR-056,run-0140,app-retail-01,network-flaky,Order is submitted twice when the network reconnects during checkout.,accepted,
+BR-057,run-0384,app-retail-01,visual-layout,Banner image is 2 pixels lower than on the previous run.,rejected,Not a defect.
+BR-058,run-0194,app-edu-01,functional,Password reset email link opens the home screen instead of the reset form.,accepted,
+BR-059,run-0284,app-travel-01,functional,Date picker lets the user book a return flight before the outbound flight.,accepted,
+BR-060,run-0190,app-food-01,network-flaky,Payment page shows a blank screen with no retry option when the network drops for 5 seconds.,accepted,

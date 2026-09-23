@@ -1,0 +1,7 @@
+name,role,skills,email,leave_days_sprint_1,leave_days_sprint_2
+Anh Vo,tech lead,agents; prompt design; Python,anh.vo@example.com,0,0
+Bao Lam,engineer,evaluation sets; test data; Python,bao.lam@example.com,10,0
+Chi Dang,engineer,backend; job queues; reliability,chi.dang@example.com,5,0
+Duc Ho,engineer,device farm integration; Appium; infra,duc.ho@example.com,3,0
+Giang Mai,engineer,backend; APIs; cost reporting,giang.mai@example.com,2,2
+Hieu Ta,engineer,frontend; customer portal,hieu.ta@example.com,0,0
